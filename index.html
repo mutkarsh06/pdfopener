@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF OPENER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="start" align="center"><i><b><u>PDF OPENER</u></b></i></h1>
+    <hr>
+    <form id="pdf" class="frm">
+        <label for="URL">Enter URL:</label>
+        <br>
+        <input type="url" name="URL" id="link" placeholder="Enter URL OF The PDF" required>
+        <br>
+        <label for="page">Enter Page Number To Display:</label>
+        <input type="number" name="page" id="pno" placeholder="Enter The Page Number " required>
+        <br>
+        <button>
+            <input type="submit" onclick="fun()" class="button" value="Open" align="center">
+        </button>
+    </form>
+        <script src="script.js"></script>
+</body>
+
+</html>
